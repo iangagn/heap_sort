@@ -1,4 +1,20 @@
 def max_heapify(arr, length, i):
+    '''
+    Performs recursive max heapification.
+    
+    Parameters
+    ----------
+    arr : list, tuple or set
+        An array.
+        
+    length : int
+        Length of array.
+        
+    i : int
+        Index of current (sub)tree root.
+      
+    Returns nothing.
+    '''
 
     largest = i
     l = 2 * i + 1 # lchild of i-th node @ 2i + 1
