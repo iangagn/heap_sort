@@ -34,7 +34,7 @@ def min_heapify(arr, length, i):
     if smallest != i:
         arr[i], arr[smallest] = arr[smallest], arr[i]
 
-        # Recursive max heapification of roots
+        # Recursive min heapification of roots
         max_heapify(arr, length, largest)
 
     # When the code reaches this line, the array is heapified
